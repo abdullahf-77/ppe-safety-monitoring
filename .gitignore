@@ -1,0 +1,13 @@
+.env
+*.key
+dataset_raw/
+dataset_5class_presplit/
+dataset_final_split/
+ppe_training/
+runs/
+*.pt
+*.onnx
+*.mp4
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
