@@ -1,5 +1,9 @@
 # AI-Powered PPE & Restricted-Zone Worker Safety Monitoring
 
+## Google Colab Notebook
+
+[Open the complete project notebook in Google Colab](https://colab.research.google.com/drive/1DOkHXGNSg5vSnvLyXGEfOYrfepiH0MB2?usp=sharing)
+
 ## Problem
 Automated PPE-compliance and restricted-zone monitoring for construction sites using computer vision.
 
