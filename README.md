@@ -100,6 +100,35 @@ The final OpenCV pipeline performs:
 
 The notebook generates a browser-playable H.264 annotated output video (`ppe_safety_output.mp4`).
 
+
+## Demo Clips
+
+### Worker Tracking
+
+The detector and ByteTrack maintain persistent worker IDs across video frames.
+
+![Worker tracking preview](assets/tracking_preview.gif)
+
+### PPE & Restricted-Zone Safety Monitoring
+
+The complete pipeline combines worker tracking, PPE association, pose-assisted ground-contact estimation, restricted-zone checks, and alert logic.
+
+![PPE and restricted-zone monitoring preview](assets/safety_monitoring_preview.gif)
+
+## Visual Results
+
+### Training Curves
+
+![Training curves](assets/training_curves.webp)
+
+### PPE Detection Examples
+
+![PPE detection results](assets/detection_results.webp)
+
+### Pose Estimation Examples
+
+![Pose estimation results](assets/pose_results.webp)
+
 ## Deployment
 
 The trained detector is exported to **ONNX** using Ultralytics `model.export(format="onnx")`. ONNX was selected as a portable optimized deployment format that can be used across multiple runtimes and devices.
